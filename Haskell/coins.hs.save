@@ -1,0 +1,7 @@
+import Data.Vector ((!),generate)
+coins :: Int -> [Int] -> Int
+coins sum c = r!sum
+  where
+    r = generate (sum+1) f
+    f i = if elem i c then 1 else 
+    options i = map (\x -> if i-x>=0 then r!x else 2147483647) c

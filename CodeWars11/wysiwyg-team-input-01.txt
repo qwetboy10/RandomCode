@@ -1,0 +1,13 @@
+5
+My name is
+Puddintane
+John Smith.
+Nice to
+Meet you.
+6
+S /My name is/Are You/
+S /Nice/It's Nice/
+D 2
+S /Smith./Smith?/
+A 2 My name is Jane Smith.
+A 3 Oops! It is Jane Brown.

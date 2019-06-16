@@ -1,0 +1,13 @@
+12
+TrollTrouble 1 285 19.4
+MistyMountains 1 375 23.1
+Mirkwood 1 347 24.8
+OldForest 2 338 23.9
+Weathertop 2 351 18.3
+MinesOfMoria 2 418 36.2
+EntMoot 3 214 22.6
+HelmsDeep 3 429 29.7
+DeadMarshes 3 248 23.5
+ShelobsLair 4 292 19.9
+GatesOfMordor 4 412 22.4
+MountDoom 4 301 16.8

@@ -1,0 +1,46 @@
+15
+e IS e OR a IS a
+d IS d OR d IS d
+d IS d OR d IS d
+b IS b OR c IS c
+b IS b AND a IS a
+a IS a AND a IS a
+b IS b XOR e IS e
+b IS b AND c IS c
+c IS c XOR e IS e
+b IS b OR d IS d
+b IS b OR e IS e
+e IS e OR b IS b
+d IS d AND b IS b
+f IS f OR b IS b
+d IS d OR d IS d
+TT IS A AND B IS B
+TT IS A AND C IS C
+TT IS NOT A AND C IS C
+SID IS SQUID XOR ASHAY IS SID
+ASHAY IS SID AND SID IS SQUID
+SID IS NOT SQUID XOR ASHAY IS SID
+a IS NOT a XOR e IS NOT e
+c IS NOT c XOR c IS NOT c
+c IS NOT c AND a IS a
+f IS f XOR c IS NOT c
+c IS c AND d IS d
+f IS f AND c IS c
+c IS c XOR d IS d
+c IS c AND a IS NOT a
+c IS c XOR c IS c
+f IS NOT f AND c IS NOT c
+b IS b AND a IS NOT a
+c IS c AND b IS NOT b
+c IS c OR f IS f
+c IS NOT c AND f IS f
+f IS f OR f IS f
+b IS b AND a IS a
+b IS NOT b AND d IS d
+e IS e AND d IS NOT d
+b IS NOT b AND b IS b
+d IS d OR b IS b
+f IS NOT f AND b IS NOT b
+e IS e OR f IS NOT f
+b IS NOT b AND e IS NOT e
+b IS b AND b IS NOT b

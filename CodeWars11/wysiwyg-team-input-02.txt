@@ -1,0 +1,12 @@
+4
+one potable
+two potable
+three potable
+four
+6
+S /one/1/
+2 S /potable/potato/
+1 S /potable/potato/
+3 S /potable/potato/
+3 S /three/3/
+A 5 you are it!

@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+class debug
+{
+    public static void main(String[] args) throws Exception
+    {
+        new debug().run();
+    }
+i
+i
+asdf
+
+
+run
+    public void run() throws Exception
+    {
+      int a = 3;
+      int b = 5;
+      int[] n = new int[a*b];
+      System.out.println("3");
+      System.out.println("3");
+    }
+}

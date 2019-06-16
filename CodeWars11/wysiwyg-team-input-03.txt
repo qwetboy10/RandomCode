@@ -1,0 +1,9 @@
+2
+I wunder if I wun a wunderful prize.
+A cow walks into a cow pasture and moos.
+5
+S /wun/won/
+2 S /cow/horse/
+2 S /moos/neighs/
+A 3 If a timber! falls in a forest, does anyone listen?
+S /timber/tree/

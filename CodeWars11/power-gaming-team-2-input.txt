@@ -1,0 +1,15 @@
+14
+Wardrobe 1 304 21.4
+TurkishDelight 1 321 22.3
+WhiteCastle 1 377 24.0
+RescueTrumpkin 2 294 18.1
+CairParavel 2 336 23.8
+LoneIslands 2 475 26.6
+DragonCave 3 296 25.8
+Harfang 3 260 25.1
+Underland 3 272 26.5
+EscapeToTashbaan 3 284 27.4
+DefenseOfArchenland 4 348 24.7
+BetweenTheWorlds 4 226 16.2
+TalkingTrees 4 235 18.4
+Oathbreakers 4 296 20.3

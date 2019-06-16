@@ -1,0 +1,19 @@
+1 1 3 4 10 14
+1 1 | 3 4 | 10 14
+
+3 buses 4 seats each
+1 1 | 3 4 | 10 14
+
+1 1 1 1 5 5
+1 1 | 1 1 | 5 5
+3 buses 5 seats each
+
+minimize dif between group max and group min
+
+7 3 3
+1 1 10 14 4 3 20
+1 1 3 4 10 14 20
+1 1 3 | 4 10 14 | 20
+2 10 0
+1 1 3 | 4 | 10 14 20
+2 0 10
