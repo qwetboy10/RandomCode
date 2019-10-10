@@ -1,0 +1,35 @@
+import java.io.*;
+import java.util.*;
+import java.util.function.*;
+import java.util.stream.*;
+
+public class stream
+{
+    public static void main(String[]  args) throws Exception
+    {
+        new stream().run();
+    }
+    public void run() throws Exception
+    {
+        //making streams
+        ArrayList<Integer> a1 = new ArrayList<Integer>() {{add(1); add(2);}};
+        Stream<Integer> s1 = a1.stream();
+        Integer[] a2 = new Integer[2];
+        a2[0] = 3; a2[1] = 4;
+        Stream<Integer> s2 = Arrays.stream(a2);
+        Stream<Integer> s3 = Stream.of(5,6);
+        printStream(s1);
+        printStream(s2);
+        printStream(s3);
+        //stream intermediate operations - return a stream - lazily evaluated
+        //stream terminal operations - return a value - evaluates entire stream
+        Stream<Integer> vals = Stream.of(1,2,3,4,5,6,7,8,9,10);
+        Stream<Integer> evens = Stream.of(2,4,6);
+        System.out.println(vals.allMatch( i -> i%2==0));
+        System.out.println(evens.allMatch( i -> i%2==0));
+    }
+    public static void printStream(Stream s)
+    {
+        System.out.println(s.reduce("", (a,b) -> a + "" +  b + " " ));
+    }
+}
