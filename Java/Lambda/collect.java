@@ -18,7 +18,7 @@ public class collect
         System.out.println(Stream.of(1,2,3).map(Object::toString).collect(Collectors.joining(", ")));
         System.out.println(Stream.of(1,2,3,4,5).collect(Collectors.partitioningBy(i -> i > 3)));
         System.out.println(Stream.of(1,2,3).collect(Collectors.toList()));
-        System.out.println(Stream.of(1,2,3,4).collect(Collectors.toMap( k -> ""+k, v -> v)));
+        System.out.println(Stream.of(1,2,3,4).collect(Collectors.toMap( k -> k, v -> v)));
         int[][] mat = {{1,2,3},{4,5,6},{7,8,9}};
 
 
