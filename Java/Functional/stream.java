@@ -123,7 +123,7 @@ public class stream
         vals = Stream.of(1,2,3,4,5,6,7,8,9,10);
         System.out.println(vals.reduce(10, (x,y) -> x+y));
         vals = Stream.of(1,2,3,4,5,6,7,8,9,10);
-        System.out.println(vals.reduce("", (s,x) -> s+x, (string1,string2) -> string1+","+string2));
+        System.out.println(vals.reduce("B", (s,x) -> s+x, (string1,string2) -> string1+","+string2));
         vals = Stream.of(1,2,3,4,5,6,7,8,9,10).parallel();
         System.out.println(vals.reduce("A", (s,x) -> s+x, (string1,string2) -> string1+","+string2));
 
